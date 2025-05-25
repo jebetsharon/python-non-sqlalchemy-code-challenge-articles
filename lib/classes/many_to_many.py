@@ -27,7 +27,7 @@ class Article:
 
     @author.setter
     def author(self, value):
-        # Defined later, but it works as long as the value passed is correct
+       
         if not isinstance(value, Author):
             raise Exception("Author must be an instance of Author.")
         self._author = value
